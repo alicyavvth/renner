@@ -1,0 +1,54 @@
+
+
+
+*{
+margin: 0;
+padding: 0;
+}
+
+body{
+    background-color: rgb(178, 117, 56);
+}
+
+button{
+        
+display: block;
+margin-right: 200px; 
+margin-left: 200px;
+width: 220px;
+height: 40px;
+border: none;
+border-radius: 7px;
+background-color: rgb(166, 84, 29);
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+color: rgb(113, 48, 4);
+font-size: 15px;
+
+}
+
+
+header{
+    text-align: center;
+ font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#container{
+justify-content: stretch;
+    display: grid;
+    grid-template-columns:  500px 700px;
+    
+}   
+    
+    
+    
+    
+   
+.item {
+    font-family: Arial,
+ Helvetica, sans-serif;
+color: rgb(244, 238, 238);
+  background-color: rgba(141, 98, 62, 0.46);
+  border-radius: 15px; 
+    padding: 20px;
+    margin: 10px;
+}
